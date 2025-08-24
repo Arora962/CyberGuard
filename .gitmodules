@@ -1,0 +1,3 @@
+[submodule "myopenaps"]
+	path = myopenaps
+	url = https://github.com/Arora962/myopenaps.git

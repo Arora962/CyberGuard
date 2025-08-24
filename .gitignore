@@ -1,5 +1,4 @@
 # Root .gitignore for insulin-pump-simulation
-myopenaps/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
