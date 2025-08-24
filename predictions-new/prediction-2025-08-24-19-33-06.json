@@ -1,0 +1,6 @@
+{
+    "timestamp": "2025-08-24T19:33:06.867106",
+    "glucose_input": 130,
+    "predicted_insulin_dose": 1.7071000337600708,
+    "model_used": "tensor.py"
+}
