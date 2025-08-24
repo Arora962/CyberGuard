@@ -1,3 +1,6 @@
 [submodule "myopenaps"]
 	path = myopenaps
 	url = https://github.com/Arora962/myopenaps.git
+[submodule "oref0"]
+	path = oref0
+	url = https://github.com/Arora962/oref0
