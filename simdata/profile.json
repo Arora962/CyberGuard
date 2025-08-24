@@ -1,0 +1,15 @@
+{
+  "min_bg": 100,
+  "max_bg": 120,
+  "target_bg": 110,
+  "sens": 50,
+  "carb_ratio": [{"i": 0, "start": "00:00:00", "ratio": 10}],
+  "max_iob": 3,
+  "dia": 3,
+  "current_basal": 1.0,
+  "basalprofile": [
+    {"start": "00:00:00", "minutes": 0, "rate": 1.0}
+  ],
+  "isfProfile": {"sens": [{"i": 0, "start": "00:00:00", "sensitivity": 50}]},
+  "carb_ratio": [{"i": 0, "start": "00:00:00", "ratio": 10}]
+}

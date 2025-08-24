@@ -1,0 +1,11 @@
+[
+  {
+    "iob": 1.2,
+    "activity": 0.03,
+    "bolussnooze": 0.0,
+    "basaliob": 0.5,
+    "netbasalinsulin": 0.5,
+    "hightempinsulin": 0.0,
+    "time": "2025-08-24T10:15:00"
+  }
+]

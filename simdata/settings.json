@@ -1,0 +1,5 @@
+{
+  "insulin_action_curve": 3,
+  "max_basal": 2.0,
+  "max_daily_basal": 24.0
+}

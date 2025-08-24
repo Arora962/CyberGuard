@@ -1,0 +1,5 @@
+[
+    {"date": 1692873600000, "glucose": 120, "direction": "Flat", "noise": 1, "sgv": 120, "filtered": 120, "unfiltered": 120, "rssi": 100, "device": "simulator"},
+    {"date": 1692873900000, "glucose": 125, "direction": "Flat", "noise": 1, "sgv": 125, "filtered": 125, "unfiltered": 125, "rssi": 100, "device": "simulator"},
+    {"date": 1692874200000, "glucose": 130, "direction": "Flat", "noise": 1, "sgv": 130, "filtered": 130, "unfiltered": 130, "rssi": 100, "device": "simulator"}
+]
