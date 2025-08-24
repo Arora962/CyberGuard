@@ -1,0 +1,119 @@
+# Root .gitignore for insulin-pump-simulation
+myopenaps/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env.bak/
+openaps-env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Node modules
+node_modules/
+
+# Ignore local config and data
+myopenaps/monitor/*.json
+myopenaps-copy/monitor/*.json
+
+# Ignore test output
+*.coverage
+.coverage.*
+
+# Ignore backup files
+*~
+*.swp
+*.swo
+
+# Ignore pipenv and poetry files
+Pipfile.lock
+poetry.lock
+
+# Ignore compiled binaries
+*.out
+*.o
+*.a
+*.dylib
+*.exe
+*.dll
+*.obj
+*.pdb
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore other system files
+Thumbs.db
+
+#oref0 
+bower_components/
+node_modules/
+
+
+bundle/bundle.out.js
+
+.idea/
+*.iml
+my.env
+
+*.env
+static/bower_components/
+.*.sw?
+.DS_Store
+
+.vagrant
+/iisnode
+
+# istanbul output
+coverage/
+
+npm-debug.log
+bin/__pycache__
+
+package-lock.json
+
+*.pyc
+
+bash-unit-test-temp
+
+#openaps
+openaps.egg-info/
+*.pyc
+.*.sw?
