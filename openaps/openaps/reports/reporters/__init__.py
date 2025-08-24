@@ -1,5 +1,5 @@
 
-import base, text, stdout, JSON
+from . import base, text, stdout, json
 import os
 
 def default_prep_stream (reporter):
@@ -40,5 +40,5 @@ def get_reporter_map ( ):
   return dict([ (r.__name__.split('.').pop( ).lower( ), r) for r in get_reporters( ) ])
 
 def get_reporters ( ):
-  return [ base, text, stdout, JSON ]
+  return [ base, text, stdout, json ]
 

@@ -4,8 +4,8 @@ add    - add a new report configuration
 """
 from openaps import uses
 from openaps.devices.device import Device
-from report import Report
-import reporters
+from .report import Report
+from . import reporters
 import sys
 
 def configure_app (app, parser):
