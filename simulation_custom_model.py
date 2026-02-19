@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 from datetime import datetime
-from tensor import create_and_train_model
+from tensor import create_and_train_model, predict_insulin
 
 def run_simulation():
     """
@@ -31,8 +31,11 @@ def run_simulation():
         return
 
     # --- 4. Predict Insulin Dose ---
-    input_glucose = np.array([latest_glucose_reading])
-    predicted_insulin = model.predict(input_glucose).flatten()[0]
+    predicted_insulin = predict_insulin(model, latest_glucose_reading)
+    if np.isscalar(predicted_insulin):
+        predicted_insulin = float(predicted_insulin)
+    else:
+        predicted_insulin = float(predicted_insulin[0])
     print(f"Predicted insulin dose: {predicted_insulin:.4f} units")
 
     # --- 5. Save the Prediction ---

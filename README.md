@@ -27,8 +27,9 @@ insulin-pump-simulation/
 
 -   **`simulation.py`**: Orchestrates a simulation using the standard `oref0` algorithm. It reads data from `simdata/`, runs the prediction, and saves the output to the `predictions/` directory.
 -   **`simulation_custom_model.py`**: Runs a simulation using your custom TensorFlow model. It trains the model from `tensor.py`, uses it to predict an insulin dose from `simdata/`, and saves the output to `predictions-new/`.
--   **`tensor.py`**: Defines, trains, and tests a simple neural network to predict insulin doses from glucose values.
--   **`simdata/`**: Contains all the necessary JSON files (e.g., `glucose.json`, `iob.json`, `profile.json`) to feed into the simulations as input.
+-   **`tensor.py`**: Defines, trains, and tests a neural network to predict insulin doses. Uses a **data-driven formula** with profile parameters: `insulin = β0 + β1*(glucose - target_bg)` where coefficients are fit from glucose-insulin data.
+-   **`data_loader/`**: Loads data from T1D datasets (AZT1D, OhioT1DM) or generates synthetic data when none is available. See `data_loader/README.md` for dataset sources.
+-   **`simdata/`**: Contains JSON files (e.g., `glucose.json`, `iob.json`, `profile.json`). Use `python scripts/populate_synthetic_data.py` to replace static data with synthetic T1D data.
 -   **`predictions/` & `predictions-new/`**: These directories store the timestamped JSON output from the `oref0` and custom model simulations, respectively, allowing for analysis and record-keeping.
 -   **`oref0/`**: The core reference implementation of the OpenAPS algorithm, used by `simulation.py`.
 
