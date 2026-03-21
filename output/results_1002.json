@@ -1,0 +1,62 @@
+{
+  "subject_id": "1002",
+  "timestamp": "2026-03-21T14:21:28.111478+00:00",
+  "metrics": {
+    "LSTM": {
+      "basal": {
+        "mae": 0.3544,
+        "rmse": 0.4219
+      },
+      "bolus": {
+        "mae": 0.2641,
+        "rmse": 0.3753
+      }
+    },
+    "BiLSTM": {
+      "basal": {
+        "mae": 0.3522,
+        "rmse": 0.4222
+      },
+      "bolus": {
+        "mae": 0.2583,
+        "rmse": 0.3752
+      }
+    },
+    "AP-DRL_basal": {
+      "mae": 2.7657,
+      "rmse": 3.0018
+    },
+    "AP-DRL_bolus": {
+      "mae": 3.8363,
+      "rmse": 3.8541
+    }
+  },
+  "twin_status": {
+    "subject_id": "1002",
+    "timestamp": "2026-03-21T14:21:28.111492+00:00",
+    "latest_glucose": 122.1851806640625,
+    "latest_insulin": {
+      "basal": 4.5,
+      "bolus": 4.0
+    },
+    "latest_prediction": {
+      "glucose": 122.1851806640625,
+      "timestamp": "2026-03-21T14:21:27.934467+00:00",
+      "ap_drl_basal": 4.5,
+      "ap_drl_bolus": 4.0
+    },
+    "history_length": 5,
+    "models_trained": true,
+    "profile": {
+      "target_bg": 110,
+      "sens": 50,
+      "carb_ratio": 10
+    }
+  },
+  "blockchain_summary": {
+    "total_blocks": 11,
+    "approved_blocks": 10,
+    "pending": 0,
+    "chain_valid": true
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "1001": {
+    "LSTM": {
+      "basal": {
+        "mae": 0.4322,
+        "rmse": 0.5244
+      },
+      "bolus": {
+        "mae": 0.3781,
+        "rmse": 0.5198
+      }
+    },
+    "BiLSTM": {
+      "basal": {
+        "mae": 0.4306,
+        "rmse": 0.5254
+      },
+      "bolus": {
+        "mae": 0.3969,
+        "rmse": 0.5204
+      }
+    },
+    "AP-DRL_basal": {
+      "mae": 0.7678,
+      "rmse": 0.9221
+    },
+    "AP-DRL_bolus": {
+      "mae": 3.0665,
+      "rmse": 3.1596
+    }
+  },
+  "1002": {
+    "LSTM": {
+      "basal": {
+        "mae": 0.3544,
+        "rmse": 0.4219
+      },
+      "bolus": {
+        "mae": 0.2641,
+        "rmse": 0.3753
+      }
+    },
+    "BiLSTM": {
+      "basal": {
+        "mae": 0.3522,
+        "rmse": 0.4222
+      },
+      "bolus": {
+        "mae": 0.2583,
+        "rmse": 0.3752
+      }
+    },
+    "AP-DRL_basal": {
+      "mae": 2.7657,
+      "rmse": 3.0018
+    },
+    "AP-DRL_bolus": {
+      "mae": 3.8363,
+      "rmse": 3.8541
+    }
+  },
+  "1006": {
+    "LSTM": {
+      "basal": {
+        "mae": 0.4562,
+        "rmse": 0.5477
+      },
+      "bolus": {
+        "mae": 0.4476,
+        "rmse": 0.6141
+      }
+    },
+    "BiLSTM": {
+      "basal": {
+        "mae": 0.4542,
+        "rmse": 0.5438
+      },
+      "bolus": {
+        "mae": 0.4501,
+        "rmse": 0.6152
+      }
+    },
+    "AP-DRL_basal": {
+      "mae": 2.5524,
+      "rmse": 2.6114
+    },
+    "AP-DRL_bolus": {
+      "mae": 4.1828,
+      "rmse": 4.2287
+    }
+  },
+  "1012": {
+    "LSTM": {
+      "basal": {
+        "mae": 0.3961,
+        "rmse": 0.4626
+      },
+      "bolus": {
+        "mae": 0.2907,
+        "rmse": 0.4164
+      }
+    },
+    "BiLSTM": {
+      "basal": {
+        "mae": 0.3904,
+        "rmse": 0.4563
+      },
+      "bolus": {
+        "mae": 0.2996,
+        "rmse": 0.4128
+      }
+    },
+    "AP-DRL_basal": {
+      "mae": 2.1943,
+      "rmse": 2.3386
+    },
+    "AP-DRL_bolus": {
+      "mae": 1.6489,
+      "rmse": 1.8324
+    }
+  }
+}
